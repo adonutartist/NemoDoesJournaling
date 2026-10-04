@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>NemoDoesJournalling</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <main class="room">
+            <div class="room-heading">
+                <h1>NemoDoesJournalling</h1>
+                <p>A cozy space to log my thoughts :3 so I don't feel so burdened all the time :p</p>
+            </div>
+            <section class="desk">
+                <div class="decoration flower">✿</div>
+                <div class="decoration sparkle sparkle-one">✧</div>
+                <div class="decoration sparkle sparkle-two">✦</div>
+                <div class="diary-object" id="diaryObject">
+                    <div class="closed-diary" id="openDiary">
+                        <div class="diary-cover">
+                            <div class="cover-border">
+                                <div class="cover-decoration">❧</div>
+                                <h2>Nemo's<br>Journal</h2>
+                                <div class="cover-line"></div>
+                                <p>idk what goes here ;-;</p>
+                                <div class="cover-heart">♡</div>
+                            </div>
+                            <div class="ribbon"></div>
+                        </div>
+                    </div>
+                    <div class="opne-diary" id="openDiaryContent">
+                        <button class="close-book" id="closeDiary" aria-label="Close diary">
+                            ✕
+                        </button>
+                        <div class="book">
+                            <div class="book-pages">
+                                <div class="page left-page">
+                                    <div class="page-content" id="leftPage">
+                                        <p class="page-number">01</p>
+                                        <h2>Welcome, dear lurker :></h2>
+                                        <p>
+                                            Congrats on finding this little corner of the Internet.
+                                            Its nothing much just a place where i dump my memories... 
+                                            and ofc lots of CRASHOUTS.
+                                        </p>
+                                        <p>
+                                            Feel free to read ahead :3
+                                        </p>
+                                        <div class="page-flower">❀</div>
+                                    </div>
+                                </div>
+                                <div class="page right-page">
+                                    <div class="page-content" id="rightPage">
+                                        <p class="page-number">02</p>
+                                        <p class="entry-date">October 5, 2026</p>
+                                        <h2>nemo nemo nemo</h2>
+                                        <p>
+                                            bucket bucket bucket bucket
+                                            my cute blue bucket
+                                        </p>
+                                        <p>
+                                            idk where i am :0
+                                        </p>
+                                        <div class="page-flower">♡</div>
+                                    </div>
+                                </div>
+                                <div class="flipping-page" id="flippingPage">
+                                    <div class="flip-front" id="flipFront"></div>
+                                    <div class="flip-back" id="flipBack"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="book-navigation">
+                            <button id="previousPage">← Previous</button>
+                            <span id="pageIndicator">1/2</span>
+                            <button id="nextPage">Next →</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="guestbook-object" id="guestbookObject">
+                    <div class="guestbook-cover" id="openGuestbook">
+                        <div class="guestbook-border">
+                            <span>✿</span>
+                            <h2>Guest<br>Pocketbook</h2>
+                            <p>Leave a little something while you are lurking around :3</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="pen">
+                    <div class="pen-tip"></div>
+                    <div class="pen-body"></div>
+                    <div class="pen-cap"></div>
+                </div>
+                <div class="desk-note">
+                    <p>Take your sweet time :3 stay awhile</p>
+                </div>
+            </section>
+            <footer>
+                made with lot of caffeine and a full all nighter · NemoDoesJournaling
+            </footer>
+        </main>
+        <script src="script.js"></script>
+    </body>
+</html>
